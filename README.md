@@ -1,126 +1,91 @@
-IntelliDispatch: Order Delivery Optimization System
-Project Overview
+# IntelliDispatch: Order Delivery Optimization System
 
-IntelliDispatch is an Order Delivery Optimization System developed in Java that efficiently assigns customer orders to warehouses and couriers using advanced algorithms and data structures. The system models the delivery network as a graph and dynamically selects the best warehouse and courier for each order to minimize delivery time and distance.
+★ Project Overview:
 
-The system supports real-time warehouse stock management, courier availability, and dynamic traffic updates, making it suitable for real-world logistics optimization.
+• IntelliDispatch is a Java-based Order Delivery Optimization System.
+• Efficiently assigns customer orders to warehouses and couriers using advanced algorithms and data structures.
+• Models the delivery network as a graph to dynamically select the best warehouse and courier for each order.
+• Optimizes delivery time and distance while supporting real-time updates.
 
-Key Features
+★ Key Features:
 
-Graph-Based Network: Delivery points, warehouses, and routes are modeled as a graph.
+• Graph-Based Network: Models delivery points, warehouses, and routes as a graph.
+• Shortest Path Calculation: Uses Dijkstra’s Algorithm to find the shortest path from warehouse to customer.
+• Connectivity Check: Uses BFS to verify if nodes are connected.
+• Greedy Assignment: Assigns orders to the nearest warehouse and fastest available courier.
+• Priority Queue: Optimizes shortest-path computations in Dijkstra’s Algorithm.
+• HashMap & Sorting: Efficiently manages adjacency lists, distances, and courier prioritization.
+• Simulation & Performance Metrics: Simulates 200+ orders and compares baseline vs optimized delivery efficiency.
+• Dynamic Updates: Supports stock updates, courier assignment, and potential traffic adjustments.
 
-Shortest Path Calculation: Uses Dijkstra’s Algorithm to find the shortest path from warehouse to customer.
+★ Tech Stack & Algorithms:
 
-Connectivity Check: Uses BFS to verify if nodes are connected.
+• Programming Language: Java
+• Algorithms Used:
+  • Graph Modeling
+  • BFS (Breadth-First Search)
+  • Dijkstra’s Algorithm
+  • Greedy Algorithms
+  • Priority Queue
+  • Sorting
+  •  HashMap
 
-Greedy Assignment: Assigns orders to the nearest warehouse and fastest available courier.
+★ Concepts Applied:
 
-Priority Queue: Utilized in Dijkstra for efficient shortest-path computation.
+• Time Complexity Analysis
+• Efficient Resource Allocation
+• Simulation and Performance Measurement
+• Simulation Results:
+• Demonstrates a ~30% improvement in delivery efficiency compared to baseline random-assignment approach.
 
-HashMap & Sorting: Efficient data management for adjacency lists, distances, and courier prioritization.
-
-Simulation & Performance Metrics: Simulates 200+ orders and compares baseline vs optimized delivery efficiency.
-
-Dynamic Updates: Supports stock updates, courier assignment, and potential traffic adjustments.
-
-Tech Stack & Algorithms
-
-Programming Language: Java
-
-Algorithms Used:
-
-Graph Modeling
-
-BFS (Breadth-First Search)
-
-Dijkstra’s Algorithm
-
-Greedy Algorithms
-
-Priority Queue
-
-Sorting
-
-HashMap
-
-Concepts:
-
-Time Complexity Analysis
-
-Efficient resource allocation
-
-Simulation Results
-
-The system demonstrates a ~30% improvement in delivery efficiency compared to a baseline random-assignment approach.
-Example output:
+★ Example Output:
 
 ===== IntelliDispatch Simulation Report =====
-Orders simulated     : 200
-Avg ETA (Baseline)   : 7.321 units
-Avg ETA (Optimized)  : 5.029 units
-Efficiency Gain      : 31.28 %
-================================================
+Orders simulated       : 200
+Avg ETA (Baseline)     : 7.321 units
+Avg ETA (Optimized)    : 5.029 units
+Efficiency Gain        : 31.28%
 
-Setup & Run Instructions
-1. Clone or Download the Project
+★ Setup & Run Instructions:
 
-Save IntelliDispatchSim.java to your local system.
-
-2. Open Terminal or PowerShell
-
-Navigate to the project directory:
-
-cd "C:\path\to\project"
-
-3. Compile the Java Program
-javac IntelliDispatchSim.java
-
-4. Run the Simulation
-java IntelliDispatchSim
+• Save IntelliDispatchSim.java to your local system.
+• Open Terminal/PowerShell and navigate to project directory:
+• cd "C:\path\to\project"
 
 
-You will see a simulation report with baseline vs optimized delivery efficiency.
+★ Compile the Java program:
 
-How It Works
+• javac IntelliDispatchSim.java
+• Run the simulation:
+• java IntelliDispatchSim
+• Observe the simulation report showing baseline vs optimized delivery efficiency.
 
-Graph Representation: Nodes represent locations; edges represent routes with weights (distance/cost).
+★ How It Works:
 
-Order Assignment:
+• Graph Representation: Nodes = locations, Edges = routes with weights (distance/cost).
+• Order Assignment:
+• Optimized Approach:
+• Selects closest warehouse.
+• Chooses fastest available courier.
+• Uses Dijkstra’s Algorithm for shortest path.
+• Baseline Approach: Random warehouse and courier assignment.
+• Efficiency Calculation: Measures average delivery time for baseline and optimized assignments.
 
-Optimized Approach:
+★ Future Enhancements:
 
-Chooses the warehouse closest to the destination.
+• Real-time traffic integration for dynamic edge costs.
+• Visualization of delivery routes.
+• REST API for real-world application.
+• Multi-threaded courier simulation for concurrent deliveries.
+• Integration with a database for warehouse inventory and courier status.
 
-Chooses the fastest available courier.
+★ Project Impact:
 
-Uses Dijkstra’s Algorithm for shortest path calculation.
+• Demonstrates how advanced data structures and algorithms (Graphs, BFS, Dijkstra, PriorityQueue, Greedy Methods, HashMaps, Sorting) can optimize real-world logistics.
+• Achieves measurable improvements in delivery efficiency.
 
-Baseline Approach: Random warehouse and courier assignment.
-
-Efficiency Calculation: Computes average delivery time for baseline and optimized assignment to measure improvement.
-
-Future Enhancements
-
-Real-time traffic integration for dynamic edge costs.
-
-Visualization of delivery routes.
-
-REST API for real-world application.
-
-Multi-threaded courier simulation for concurrent deliveries.
-
-Integration with a database for warehouse inventory and courier status.
-
-Project Impact
-
-This project demonstrates how advanced data structures and algorithms (Graphs, BFS, Dijkstra, PriorityQueue, Greedy Methods, HashMaps, Sorting) can be applied to real-world logistics optimization, achieving measurable improvements in delivery efficiency.
-
-Author
-
-Rutuja Bhavar
-
-Email: rutujabhavar95@gmail.com
-
-GitHub: https://github.com/rutujabhavar
-
-LinkedIn: https://linkedin.com/in/rutujabhavar06
+★ Author:
+• Rutuja Bhavar
+• Email: rutujabhavar95@gmail.com
+• GitHub: github.com/rutujabhavar
+• LinkedIn: linkedin.com/in/rutujabhavar06
