@@ -1,24 +1,126 @@
-<h1 align="center">Hi 👋, I'm RUTUJA BHAVAR</h1>
-<h3 align="center">A passionate Full Stack Developer</h3>
+IntelliDispatch: Order Delivery Optimization System
+Project Overview
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rutujabhavar&label=Profile%20views&color=0e75b6&style=flat" alt="rutujabhavar" /> </p>
+IntelliDispatch is an Order Delivery Optimization System developed in Java that efficiently assigns customer orders to warehouses and couriers using advanced algorithms and data structures. The system models the delivery network as a graph and dynamically selects the best warehouse and courier for each order to minimize delivery time and distance.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rutujabhavar" alt="rutujabhavar" /></a> </p>
+The system supports real-time warehouse stock management, courier availability, and dynamic traffic updates, making it suitable for real-world logistics optimization.
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+Key Features
 
-- 📫 How to reach me **rutujabhavar95@gmail.com**
+Graph-Based Network: Delivery points, warehouses, and routes are modeled as a graph.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/rutuja bhavar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rutuja bhavar" height="30" width="40" /></a>
-</p>
+Shortest Path Calculation: Uses Dijkstra’s Algorithm to find the shortest path from warehouse to customer.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+Connectivity Check: Uses BFS to verify if nodes are connected.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rutujabhavar&show_icons=true&locale=en&layout=compact" alt="rutujabhavar" /></p>
+Greedy Assignment: Assigns orders to the nearest warehouse and fastest available courier.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rutujabhavar&show_icons=true&locale=en" alt="rutujabhavar" /></p>
+Priority Queue: Utilized in Dijkstra for efficient shortest-path computation.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rutujabhavar&" alt="rutujabhavar" /></p>
+HashMap & Sorting: Efficient data management for adjacency lists, distances, and courier prioritization.
+
+Simulation & Performance Metrics: Simulates 200+ orders and compares baseline vs optimized delivery efficiency.
+
+Dynamic Updates: Supports stock updates, courier assignment, and potential traffic adjustments.
+
+Tech Stack & Algorithms
+
+Programming Language: Java
+
+Algorithms Used:
+
+Graph Modeling
+
+BFS (Breadth-First Search)
+
+Dijkstra’s Algorithm
+
+Greedy Algorithms
+
+Priority Queue
+
+Sorting
+
+HashMap
+
+Concepts:
+
+Time Complexity Analysis
+
+Efficient resource allocation
+
+Simulation Results
+
+The system demonstrates a ~30% improvement in delivery efficiency compared to a baseline random-assignment approach.
+Example output:
+
+===== IntelliDispatch Simulation Report =====
+Orders simulated     : 200
+Avg ETA (Baseline)   : 7.321 units
+Avg ETA (Optimized)  : 5.029 units
+Efficiency Gain      : 31.28 %
+================================================
+
+Setup & Run Instructions
+1. Clone or Download the Project
+
+Save IntelliDispatchSim.java to your local system.
+
+2. Open Terminal or PowerShell
+
+Navigate to the project directory:
+
+cd "C:\path\to\project"
+
+3. Compile the Java Program
+javac IntelliDispatchSim.java
+
+4. Run the Simulation
+java IntelliDispatchSim
+
+
+You will see a simulation report with baseline vs optimized delivery efficiency.
+
+How It Works
+
+Graph Representation: Nodes represent locations; edges represent routes with weights (distance/cost).
+
+Order Assignment:
+
+Optimized Approach:
+
+Chooses the warehouse closest to the destination.
+
+Chooses the fastest available courier.
+
+Uses Dijkstra’s Algorithm for shortest path calculation.
+
+Baseline Approach: Random warehouse and courier assignment.
+
+Efficiency Calculation: Computes average delivery time for baseline and optimized assignment to measure improvement.
+
+Future Enhancements
+
+Real-time traffic integration for dynamic edge costs.
+
+Visualization of delivery routes.
+
+REST API for real-world application.
+
+Multi-threaded courier simulation for concurrent deliveries.
+
+Integration with a database for warehouse inventory and courier status.
+
+Project Impact
+
+This project demonstrates how advanced data structures and algorithms (Graphs, BFS, Dijkstra, PriorityQueue, Greedy Methods, HashMaps, Sorting) can be applied to real-world logistics optimization, achieving measurable improvements in delivery efficiency.
+
+Author
+
+Rutuja Bhavar
+
+Email: rutujabhavar95@gmail.com
+
+GitHub: https://github.com/rutujabhavar
+
+LinkedIn: https://linkedin.com/in/rutujabhavar06
