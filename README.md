@@ -41,9 +41,13 @@
 ★ Example Output:
 
 ===== IntelliDispatch Simulation Report =====
+
 Orders simulated       : 200
+
 Avg ETA (Baseline)     : 7.321 units
+
 Avg ETA (Optimized)    : 5.029 units
+
 Efficiency Gain        : 31.28%
 
 ★ Setup & Run Instructions:
